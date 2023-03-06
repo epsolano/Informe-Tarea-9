@@ -631,6 +631,12 @@ L=(0.22 μF)/√(2π*456 kHz )
 
 **5. CONCLUSIONES**
 
+* Un circuito RLC en serie está formado por una resistencia, un inductor y un condensador. Las reactancias inductiva y capacitiva tienen efectos opuestos en el ángulo de fase del circuito, de modo que la reactancia global es menor que las reactancias individuales, pero como la resonancia es una situación en la que las reactancias capacitiva e inductiva son iguales, se anulan mutuamente, dando lugar a una impedancia puramente resistiva.
+* En un circuito en serie RLC, las tensiones entre los terminales del condensador y los terminales del inductor están siempre separadas 180°. Por lo tanto, VC y VL se restan entre sí, de modo que la suma de las tensiones en L y C es siempre menor que la tensión máxima individual entre los terminales de cualquiera de los componentes.
+* Los filtros de pasaaltas permite que fluya señales de alta frecuencia y los filtros de pasabajas permite que fluya las señales de baja frecuencia.
+* Los filtros de pasabanda permite que pasen las señales que se encuentran en un determinado intervalo de frecuencia si una frecuencia se pasa del intervalo es eliminada y los filtros de rechazabanda es lo opuesto a los filtros de pasabanda debido a que determina el intervalo de frecuencia donde las frecuencias son rechazadas.
+* Dentro de las relaciones de corriente se tiene que en un circuito RLC dispuesto en paralelo, las corrientes que circulan por las ramas capacitiva e
+inductiva siempre están desfasadas en 180° entre sí (omitiendo cualquier resistencia de bobina).
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
