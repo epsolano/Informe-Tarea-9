@@ -644,3 +644,4 @@ inductiva siempre están desfasadas en 180° entre sí (omitiendo cualquier resi
 **7. BIBLIOGRAFÍA**
 
 1. Floyd, Thomas.L. (2007). Floyd Octava Edición principios de circuitos electricos (8va edición, Vol.17 y 18). Prentice Hall
+2. McAllister, W. (3 de Septiembre de 2020). Khan Academy. Obtenido de https://es.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-kirchhoffs-laws
