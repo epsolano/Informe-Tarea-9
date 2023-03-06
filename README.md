@@ -14,7 +14,7 @@
 
 **1.1  OBJETIVO GENERAL**
 
-* Leer el capitulo 17 y 18 del libro *Principios de circuitos electricos-Floyd*,para conocer los circuitos RLCy resonancia, filtros pasivos, filtros pasabajas, filtros pasabanda, filtros rechazabanda. 
+* Leer el capitulo 17 y 18 del libro *Principios de circuitos electricos-Floyd*,para conocer los circuitos RLC y resonancia, filtros pasivos, filtros pasabajas, filtros pasabanda, filtros rechazabanda. 
 
 **1.2  OBJETIVOS ESPECIFICOS**
 
