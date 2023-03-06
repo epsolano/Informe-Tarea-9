@@ -25,10 +25,15 @@
 
 # Capítulo 17
 
+![image](https://user-images.githubusercontent.com/94129932/156429136-d77905c9-c394-4850-bced-b2407056de4f.png)
+
+![image](https://user-images.githubusercontent.com/94129932/156429208-9f1b2e87-efdf-458b-b687-fc1d755e31d3.png)
+
+![image](https://user-images.githubusercontent.com/94129932/156429263-2bc56164-bff9-452a-be19-e235b3b745bd.png)
 
 # Capítulo 18
 
-
+![image](https://user-images.githubusercontent.com/93794279/156254213-0871c713-d332-4dbf-8470-b4889efd376d.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
