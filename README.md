@@ -18,9 +18,10 @@
 
 **1.2  OBJETIVOS ESPECIFICOS**
 
-* Determinar la impedancia de un circuito RLC en serie y paralelo
-* Analizar circuitos RLC con resonancias en serie y paralelo
-* Analizar el funcionamiento y las operaciones de filtros RC y RL pasabajas
+* Determinar la impedancia de un circuito RLC en serie y paralelo.
+* Analizar circuitos RLC con resonancias en serie y paralelo.
+* Analizar el funcionamiento y las operaciones de filtros RC y RL pasabajas.
+* Aplicar los conocimientos adquiridos de circuitos RCL y resonancia y filtros pasivos para la resolcuión de los ejercicos propuestos por el libro de Floyd.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
