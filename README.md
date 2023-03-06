@@ -55,55 +55,55 @@
 
 [![Imagen2.png](https://i.postimg.cc/m2n6KZ3h/Imagen2.png)](https://postimg.cc/3dgBvTcH)
 
-  
-  **SECCIÓN 17–2 Análisis de circuitos RLC en serie**
-  
- 5. Para el circuito de la figura 17-59, determine Itot, VR, VL y VC en forma polar.
+
+**SECCIÓN 17–2 Análisis de circuitos RLC en serie**
+
+5. Para el circuito de la figura 17-59, determine Itot, VR, VL y VC en forma polar.
  
- [![Imagen3.png](https://i.postimg.cc/FKVpFhSy/Imagen3.png)](https://postimg.cc/cK6wXyXC)
+[![Imagen3.png](https://i.postimg.cc/FKVpFhSy/Imagen3.png)](https://postimg.cc/cK6wXyXC)
  
- 7. Analice el circuito de la figura 17-60 para determinar lo siguiente (f  25 kHz):
+7. Analice el circuito de la figura 17-60 para determinar lo siguiente (f  25 kHz):
 
 [![Imagen5.png](https://i.postimg.cc/SsjTxJpB/Imagen5.png)](https://postimg.cc/ftnjHWyC)
 
 [![Imagen4.png](https://i.postimg.cc/HL6MPn5h/Imagen4.png)](https://postimg.cc/McjXnW97)
  
  
- **SECCIÓN 17–3 Resonancia en serie**
+**SECCIÓN 17–3 Resonancia en serie**
  
- 9. Para el circuito de la figura 17-61, ¿cuál es el voltaje a través de R en condición de resonancia?
+9. Para el circuito de la figura 17-61, ¿cuál es el voltaje a través de R en condición de resonancia?
  
- La reactancia capacitativa y la reactancia inductiva tienen el mismo valor por lo cual se anulan entre si haciendo un circuito sumamente resistivo por lo ue el voltaje es igual al de la fuente.
+La reactancia capacitativa y la reactancia inductiva tienen el mismo valor por lo cual se anulan entre si haciendo un circuito sumamente resistivo por lo ue el voltaje es igual al de la fuente.
  
- 11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
+11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
  
- [![Imagen6.png](https://i.postimg.cc/ZqfmQBc2/Imagen6.png)](https://postimg.cc/nsQNjLNG)
+[![Imagen6.png](https://i.postimg.cc/ZqfmQBc2/Imagen6.png)](https://postimg.cc/nsQNjLNG)
  
- 13. Para la figura 17-62, ¿cuál es el valor de la corriente en los puntos de potencia media?
+13. Para la figura 17-62, ¿cuál es el valor de la corriente en los puntos de potencia media?
  
- [![Imagen7.png](https://i.postimg.cc/05SgYHLL/Imagen7.png)](https://postimg.cc/Cdw6YJMN)
+[![Imagen7.png](https://i.postimg.cc/05SgYHLL/Imagen7.png)](https://postimg.cc/Cdw6YJMN)
  
- 15. Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con un conmutador:(a) 500 kHz (b) 1000 kHz (c) 1500 kHz (d) 2000 kHz
+15. Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con un conmutador:(a) 500 kHz (b) 1000 kHz (c) 1500 kHz (d) 2000 kHz
  
- [![Imagen8.png](https://i.postimg.cc/CxL6QvQM/Imagen8.png)](https://postimg.cc/0bFf6Cvh)
+[![Imagen8.png](https://i.postimg.cc/CxL6QvQM/Imagen8.png)](https://postimg.cc/0bFf6Cvh)
  
  
- **SECCIÓN 17–4 Impedancia de circuitos RLC en paralelo**
+**SECCIÓN 17–4 Impedancia de circuitos RLC en paralelo**
 
 17. ¿Es capacitivo o inductivo el circuito de la figura 17-63? Explique su respuesta. 
  
 primero calculamos la reactancia capacitiva e inductiva con el uso de las formulas respectivas despues calculamos la impedancia con el uso de la formula de esta en paralelo, asi tenemos:
  
- [![Imagen9.png](https://i.postimg.cc/vHSWG3mZ/Imagen9.png)](https://postimg.cc/CzkZNCD3)
+[![Imagen9.png](https://i.postimg.cc/vHSWG3mZ/Imagen9.png)](https://postimg.cc/CzkZNCD3)
  
- Despues de esto debemos convertir los respectivos fasores a su forma rectangular, luego debemos nuevamente convertirlo a su forma polar para obtener el angulo y a partir de este ver si es capacitivo o inductivo:
+Despues de esto debemos convertir los respectivos fasores a su forma rectangular, luego debemos nuevamente convertirlo a su forma polar para obtener el angulo y a partir de este ver si es capacitivo o inductivo:
  
- [![Imagen10.png](https://i.postimg.cc/BnK143ym/Imagen10.png)](https://postimg.cc/K1mYD6mT)
+[![Imagen10.png](https://i.postimg.cc/BnK143ym/Imagen10.png)](https://postimg.cc/K1mYD6mT)
  
- tenemos el angulo negativo que nos indica que el circuito es capacitivo.
+tenemos el angulo negativo que nos indica que el circuito es capacitivo.
  
  
- **SECCIÓN 17–5 Análisis de circuitos RLC en paralelo**
+**SECCIÓN 17–5 Análisis de circuitos RLC en paralelo**
  
 19. Para el circuito de la figura 17-63, determine todas las corrientes y los voltajes en forma polar.
 
@@ -114,7 +114,7 @@ primero calculamos la reactancia capacitiva e inductiva con el uso de las formul
 [![Imagen12.png](https://i.postimg.cc/w3KgkCVB/Imagen12.png)](https://postimg.cc/SYGBStH0)
 
  
-  **SECCIÓN 17–6 Resonancia en paralelo**
+**SECCIÓN 17–6 Resonancia en paralelo**
 
 23. Determine Z en condición de resonancia y fr para el circuito tanque de la figura 17-64.
 
@@ -354,8 +354,7 @@ Vsalida=8 Vrms* e^((-20)/20)
 
 **SECCIÓN 18–2 Filtros pasaaltas**
 
-11. En un filtro pasaaltas, XC =500 Ω y R =2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando Vent =
-10 V rms?
+11. En un filtro pasaaltas, XC =500 Ω y R =2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando Vent = 10 V rms?
 
 Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
 
@@ -563,7 +562,7 @@ Vsalida=(1000/(1000+4))*120V
 
 **Vsalida=119.52V**
 
-*23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB = 500 Hz; Q = 40; e IC(máx) =20 mA, VC(máx) =2.5 V.
+23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB = 500 Hz; Q = 40; e IC(máx) =20 mA, VC(máx) =2.5 V.
 Entonces 
 
 el valor de la capaitancia es 0.064 uF 
@@ -592,7 +591,7 @@ F0= sqrt(1-2200^247/10)/2piSqrt(1047)
 
 **F0=10,21Hz**
 
-*27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
+27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
 
 ![imagen](https://user-images.githubusercontent.com/93879569/155533848-d2e007a6-ea7b-4e3d-a8bd-88bb6f3b96d7.png)
 
@@ -622,10 +621,12 @@ Fo = 456 kHz
 L=(0.22 μF)/√(2π*456 kHz )
 
 **L=0.004  μH**
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **4. VIDEO**
 
+https://youtu.be/HXyuNNlKcc8
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
