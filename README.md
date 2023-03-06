@@ -244,8 +244,380 @@ La potencia a la frecuencia crítica baja es la mitad de la potencia en condici�
 es el ancho de banda a la misma fr?
 
 ![image](https://user-images.githubusercontent.com/94129932/155578155-6a018880-b518-45d2-a6e0-7b0bbda2f627.png)
+
 # Capítulo 18
 
+**SECCIÓN 18–1 Filtros pasabajas**
+
+1. En cierto filtro pasabajas, XC = 500 Ω y R = 2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando la entrada es de 10 V rms?
+
+Al aplicar la fórmula del divisor de voltaje, la magnitud del voltaje de salida es:
+
+![image](https://user-images.githubusercontent.com/93733175/155555942-31607279-2548-4895-82a9-dadd312b9c4c.png)
+
+3. Determine el voltaje de salida (Vsal) de cada filtro mostrado en la figura 18-38 a la frecuencia especificada cuando Vent = 10 V
+
+![image](https://user-images.githubusercontent.com/93733175/155556045-8599e54e-5ecf-434a-a8c4-2d9e4a85c17b.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556149-fedb0b2e-fb56-4c55-9ed2-0d7e279e4dc3.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556193-1077741d-efa6-4aaf-9af1-634cd8684da8.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556236-e2669cad-db20-4654-8fa9-ea5c1d1beac4.png)
+
+5. Para el filtro de la figura 18-39, calcule el valor de C requerido para cada una de las siguientes frecuencias críticas:
+
+![imagen](https://user-images.githubusercontent.com/93879569/155531522-2117eb7e-f099-4741-bcd8-2a47deb817b3.png)
+
+
+fc=1/2πRC
+
+fc*2π*R=1/C
+
+C=  1/(fc*2π*R)
+
+Reemplazando valores
+
+(a) 60 Hz 
+
+C=  1/(60Hz*2π*220Ω)
+
+**C= 0.000012057 F=12.1 μF**
+
+(b) 500 Hz 
+	
+C=  1/(500Hz*2π*220Ω)
+
+**C= 0.000001447 F=1.45 μF**
+
+(c) 1 kHz 
+
+C=  1/(1000 Hz*2π*220Ω)
+
+**C= 0.000000723 F=0.72 μF**
+	
+(d) 5 kHz
+
+C=  1/(5000 Hz*2π*220Ω)
+
+**C= 0.000000145 F=0.145 μF**
+
+7. Trace una curva de Bode para cada una de las partes del problema 5.
+
+![imagen](https://user-images.githubusercontent.com/93879569/155531711-179a59b0-3510-4704-a846-f70764d1f582.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155531741-44ded8bc-b1e6-46ac-be55-586834e877ac.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155531760-18904daa-5982-4288-b53d-a8adaf2627dd.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155531800-edd1521c-2268-4786-a283-304a7fa1d5ef.png)
+
+9. El voltaje de entrada a un filtro RC pasabajas es de 8 V rms. Determine el voltaje de salida a los siguientes niveles de dB:
+
+20*log⁡(Vsalida/Ventrada)=dB
+
+log⁡(Vsalida/(8 Vrms))=dB/20
+
+Vsalida/(8 Vrms)=e^(dB/20)
+
+Vsalida=8 Vrms* e^(dB/20)
+
+Reemplazando valores
+
+(a) -1 dB
+
+Vsalida=8 Vrms* e^((-1)/20)
+
+**Vsalida=7.61 V**
+
+(b) -3 dB
+
+Vsalida=8 Vrms* e^((-3)/20)
+
+**Vsalida=6.89 V**
+
+(c) -6 dB
+
+Vsalida=8 Vrms* e^((-6)/20)
+
+**Vsalida=5.92 V**
+
+(d) -20 dB
+
+Vsalida=8 Vrms* e^((-20)/20)
+
+**Vsalida=2.94 V**
+
+**SECCIÓN 18–2 Filtros pasaaltas**
+
+11. En un filtro pasaaltas, XC =500 Ω y R =2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando Vent =
+10 V rms?
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(2200/√(2200^2+500^2 ))*10
+
+Vsalida=9.75 Vrms
+
+Desplazamiento de fase 
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (500/2200)
+
+φ=12.80°
+
+El voltaje 
+
+**Vsalida=9.75∠12.8° V**
+
+13. Determine el voltaje de salida de cada filtro mostrado en la figura 18-41 a la frecuencia especificada cuando Vent = 10 V.
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532118-694a6814-5a19-4c31-8a82-72b87fd56e5b.png)
+
+Reactancia capacitiva
+
+Xc=1/(2π*f*C)
+
+Xc=1/(2π*60Hz*10μF)=265 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(100/√(100^2+265^2 ))*10
+
+Vsalida=3.53 Vrms
+
+Desplazamiento de fase 
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (265/100)
+
+φ=69.33°
+
+El voltaje 
+
+**Vsalida=3.53∠69.33° V**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532261-33761fb1-b3c6-4b53-b1ca-4da989338111.png)
+
+Reactancia capacitiva
+
+Xc=1/(2π*f*C)
+
+Xc=1/(2π*400Hz*4.7μF)=84.6 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(47/√(47^2+〖84.6〗^2 ))*10
+
+Vsalida=4.85 Vrms
+
+Desplazamiento de fase 
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (84.6/47)
+
+φ=60.95°
+
+El voltaje 
+
+**Vsalida=4.85∠60.95° V**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532375-86e177c0-37a2-426a-868f-57c27422e568.png)
+
+Rw=2*π*f*L
+
+Rw=2*π*1000 Hz*,005 H=31.42
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(330/(330+31.42))*10
+
+Vsalida=9.47mVrms
+
+Desplazamiento de fase 
+
+φ=〖tan〗^(-1) (Rw/R)
+
+φ=〖tan〗^(-1) (3142/330)
+
+φ=84°
+
+El voltaje 
+
+**Vsalida=9.4∠84° mV**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532546-ae2815d6-e336-41af-8790-942860924949.png)
+
+Rw=2*π*f*L
+
+Rw=2*π*2000 Hz*0.08 H=1005.3 
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(10/(10+1005.3))*10
+
+Vsalida=995 mVrms
+
+Desplazamiento de fase 
+
+φ=〖tan〗^(-1) (Rw/R)
+
+φ=〖tan〗^(-1) (1005.3/10)
+
+φ=84.3°
+
+El voltaje 
+
+**Vsalida=995∠84.3° mV**
+
+15. Trace la curva de Bode para cada filtro mostrado en la figura 18-41.
+
+(a)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532711-8a722ddb-ad93-4844-a2f9-6a9bef682961.png)
+
+(b)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532757-6cc35fca-125e-4d45-940f-78725084d153.png)
+
+(c)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532787-f068ee08-9663-4ec9-a47d-6ee239022989.png)
+
+(d)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532835-a856705d-2017-47ba-845c-c34cf84eb730.png)
+
+**SECCIÓN 18–3 Filtros pasabanda**
+
+17. Determine la frecuencia central para cada filtro de la figura 18-43.
+
+![imagen](https://user-images.githubusercontent.com/93879569/155532918-55e0c851-fcec-4f6c-82a7-f96672998dad.png)
+
+fo=√(1-(〖Rw〗^2*C/L))/(2π√(L*C))
+
+fo=√(1-(0^2*0.01μF/12mH))/(2π√(12mH*0.01μF))
+
+**fo=14.5 kHz**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533039-2e9bda74-e4ba-4175-a808-c1b748a4eaa4.png)
+
+fo=√(1-(〖Rw〗^2*C/L))/(2π√(L*C))
+
+fo=√(1-(0^2*0.022μF/2mH))/(2π√(2mH*0.022μF))
+
+**fo=24.0 kHz**
+
+19. ¿Cuáles son las frecuencias críticas alta y baja para cada filtro de la figura 18-43? Suponga que la respuesta es simétrica con respecto a f0.
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533188-1f293072-f287-41df-9f28-2ed50085e232.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*1H/680Ω)
+
+**fc=15.06 kHz**
+
+fc=1/(2π*R*C)
+
+fc=1/(2π*680Ω*10μF)
+
+**fc=13.94 kHz**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533334-1923ae30-7aa3-43c2-a578-1735c918b431.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*(2.5 μH)/(1 kΩ))
+
+**fc=25.3  kHz**
+
+fc=1/(2π*R*C)
+
+fc=1/(2π*1 kΩ*25pF)
+
+**fc=22.7 kHz**
+
+21. Si la resistencia de devanado de las bobinas que aparecen en la figura 18-44 es de 4 Ω, ¿cuál es el voltaje de salida en condición de resonancia cuando Vent = 120 V?
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533482-b25e671f-bda1-498b-9efc-efa47b9f4afd.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(680/(680+4))*120V
+
+**Vsalida=119.29V**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533600-28e90d57-a572-473f-8f61-ea104f98e172.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(1000/(1000+4))*120V
+
+**Vsalida=119.52V**
+
+*23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB = 500 Hz; Q = 40; e IC(máx) =20 mA, VC(máx) =2.5 V.
+Entonces 
+
+el valor de la capaitancia es 0.064 uF 
+
+La inductancia debe ser de 989 uH
+
+la frecuencia  f= 20 kHz
+
+**SECCIÓN 18-4 Filtros Rechazabanda**
+
+25. Para cada filtro de la figura 18-47, determine la frecuencia central de la banda de rechazo
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533708-f33b9640-0fa4-4424-b67f-7e7b9b2b74c0.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-1000^26.8/0,5)/2piSqrt(0.56,8)
+
+**F0=318Hz**
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533736-2de717dd-75df-40ef-9609-9799bf930876.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-2200^247/10)/2piSqrt(1047)
+
+**F0=10,21Hz**
+
+*27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
+
+![imagen](https://user-images.githubusercontent.com/93879569/155533848-d2e007a6-ea7b-4e3d-a8bd-88bb6f3b96d7.png)
+
+fo=√(1-(〖Rw〗^2*C/L))/(2π√(L*C))
+
+Si Rw = 0 ohmios
+
+fo=1/(2π√(L*C))
+
+2π*fo=1/√(L*C)
+
+√(2π*fo)=1/(L*C)
+
+L=C/√(2π*fo )
+
+Reemplazando datos
+
+Fo = 1200 kHz 
+
+L=(0.22 μF)/√(2π*1200 kHz )
+
+**L=0.0025  μH**
+
+
+Fo = 456 kHz 
+
+L=(0.22 μF)/√(2π*456 kHz )
+
+**L=0.004  μH**
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **4. VIDEO**
