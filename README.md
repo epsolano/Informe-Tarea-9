@@ -18,7 +18,9 @@
 
 **1.2  OBJETIVOS ESPECIFICOS**
 
-
+* Determinar la impedancia de un circuito RLC en serie y paralelo
+* Analizar circuitos RLC con resonancias en serie y paralelo
+* Analizar el funcionamiento y las operaciones de filtros RC y RL pasabajas
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
